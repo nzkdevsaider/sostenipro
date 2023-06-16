@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "paths": {
-      "@sostenipro/*": ["./src/*"]
+      "@sostenipro/*": ["./src/*"],
+      "@sostenipro/components/*": ["./src/components/*"]
     }
   }
 }
