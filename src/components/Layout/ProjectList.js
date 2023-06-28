@@ -127,8 +127,8 @@ const ProjectList = ({ user }) => {
           >
             <Link href={`/app/project/${project.id}`}>
               <div className="flex flex-row items-center justify-between">
-                <div className="flex flex-col">
-                  <h2 className="text-2xl">{project.name}</h2>
+                <div className="flex flex-col w-4/5">
+                  <h2 className="text-2xl text-ellipsis overflow-hidden whitespace-nowrap">{project.name}</h2>
                   <div className="badges flex flex-row items-center gap-3">
                     <div className="flex flex-row items-center justify-center bg-black rounded-full h-5 w-12">
                       <ArrowTrendingUpIcon className="text-white h-4 w-4" />

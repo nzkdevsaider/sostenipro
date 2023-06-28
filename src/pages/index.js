@@ -1,5 +1,4 @@
-import Account from "@sostenipro/components/Account/Account";
-import Login from "./login";
+import Login from "@sostenipro/components/Layout/Login";
 import { useSession } from "@supabase/auth-helpers-react";
 import { useRouter } from "next/router";
 

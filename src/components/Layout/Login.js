@@ -52,7 +52,8 @@ const Login = () => {
           />
         </div>
       </section>
-      <section className="bg-[url(/images/bg1.jpg)] bg-cover bg-center h-screen w-screen"></section>
+      <section className="bg-[url(/images/bg1.jpg)] bg-cover bg-center h-screen w-screen">
+      </section>
     </div>
   );
 };
